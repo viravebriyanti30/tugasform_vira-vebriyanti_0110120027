@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>STUDENT REGISTRATION FORM</title>
+</head>
+<body style="margin-left: 400px;margin-right: 400px;font-family: arial; background-color: #747d8c">
+	<fieldset style="background-color:#dfe6e9">
+	<h1 style="color: #00cec9">Student Registration Form</h1></font><br>
+	<div align="left">
+	<form action="formvira.html" method="post">
+	<table>
+		<tr>
+			<td><label for="registration_number">REGISTRATION NUMBER : </label> 
+				<input type="number" name="nomor" min="500" max="600" placeholder="enter three numbers" required=""></td>
+			<td><label for="date">Date : </label>
+				<input type="date" name="date" required=""></td>
+		</tr>
+	</table>
+	</div><br>
+
+
+	<div>
+	<h3>PERSONAL INFORMATION</h3><hr>
+	<label for="name">NAME &emsp; &emsp; &emsp; &nbsp;&nbsp;&nbsp;: </label>
+	<input type="text" name="name" placeholder="enter your name" required="" style="width : 70%"><br><br>
+	<label for="birth">DATE OF BIRTH : </label>
+	<input type="date" name="birth" placeholder="enter your birthday" required="" style="width : 70%"><br><br>
+	<label for="religion">RELIGION &emsp; &emsp; : </label>
+				<select name="religion" required="" style="width : 70%">
+				<option value="1">ISLAM</option>
+				<option value="1">KRISTEN</option>
+				<option value="1">KATHOLIK</option>
+				<option value="1">BUDDHA</option>
+				<option value="1">HINDU</option>
+				</select><br><br>
+	<label for="gender">GENDER  &emsp; &emsp;&nbsp;&nbsp;&nbsp;: </label>
+	<input type="radio" name="gender" value="M" required="">MAN
+	<input type="radio" name="gender" value="W" required="">WOMEN <br><br>
+	<label for="status">STATUS &emsp; &emsp;&emsp;&nbsp;: </label>
+				<select name="status" required="" style="width : 70%">
+				<option value="1">SINGLE</option>
+				<option value="1">MERRIED</option>
+				</select><br><br>
+	<label for="nasionality">NATIONALITY &nbsp;&nbsp;&nbsp;: </label>
+				<select name="nasionality" required="" style="width : 70%">
+				<option value="1">INDONESIA</option>
+				<option value="1">MALAYSIA</option>
+				<option value="1">KOREA</option>
+				<option value="1">JEPANG</option>
+				<option value="1">OUTSIDE ASIA</option>
+				</select><br><br>
+	</div>
+	<br><br>
+
+	<div>
+	<h3>CONTACT INFORMATION</h3><hr>
+	<label for="email">EMAIL &emsp; &emsp;&emsp; &emsp; &nbsp; : </label>
+	<input type="email" name="email" placeholder="enter your email" required="" style="width : 70%"><br><br>
+	<label for="phone">PHONE NUMBER &nbsp;:</label>
+	<input type="text" name="phone"  placeholder="phone number" required="" style="width : 70%">
+	<p>ADDRESS  &emsp; &emsp;&emsp;&nbsp;: </p> 
+	<textarea name="address" rows="4" cols="65" placeholder="enter your address here" required=""></textarea>
+	
+	</div><br><br>
+
+<div>
+	<h3>SCHOOL INFORMATION</h3><hr>
+	<label for="school">SCHOOL ORIGIN : </label>
+	<input type="text" name="school" placeholder="school origin" required="" style="width : 70%"><br><br>
+	<label for="nisn">NISN &emsp; &emsp;&emsp;&emsp; &emsp;: </label>
+	<input type="text" name="nisn" placeholder="enter your nisn" required="" style="width : 70%"><br><br>
+	<table>
+		<tr>
+			<td><label for="major">MAJOR TO BE TAKEN :</label></td>
+			<td><input type="checkbox" name="major1" value="rpl" required="">RPL<br>
+				<input type="checkbox" name="major2" value="otomotif" required="">OTOMOTIF<br>
+				<input type="checkbox" name="major3" value="tkj" required="">TKJ<br>
+				<input type="checkbox" name="major4" value="multimedia" required="">MULTIMEDIA<br>
+				<input type="checkbox" name="major5" value="broadcasting" required="">BROADCASTING</td>
+		</tr>
+	</table><br>
+<label for="photo">UPLOAD PHOTO OF YOURSELF&emsp; : </label><input type="file" name="photo"><br><br>
+<button type="submit">SUBMIT</button>
+<button type="reset">BATAL</button>
+
+<hr>
+</fieldset>
+<br>
+</div>
+</form>
+</body>
+</html>
